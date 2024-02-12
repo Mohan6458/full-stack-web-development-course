@@ -10,9 +10,6 @@ app.get("/",(req,res) => {
 app.get("/about",(req,res) => {
     res.send("<h1>About</h1>")
 })
-
-
-
 app.listen(port,() =>{
     console.log(`Server runing on port ${port}.`);
 })
